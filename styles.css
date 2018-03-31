@@ -35,6 +35,7 @@ body, html {
     height: 40%;
     max-width: 800px;
     max-height: 500px;
+    min-height: 300px;
 
     border-width: 1px;
     border-style: solid;
