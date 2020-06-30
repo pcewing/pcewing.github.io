@@ -9,6 +9,8 @@ body, html {
 
     width: 100%;
     height: 100%;
+
+    background-color: #000000;
 }
 
 .page-container {
@@ -17,31 +19,24 @@ body, html {
 
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    /* fallback for old browsers */
-    background: #16222A;  
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, #3A6073, #16222A);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, #3A6073, #16222A);
 }
 
 .content-container {
     display: flex;
     flex-direction: column;
 
+    margin-top: auto;
+    margin-bottom: auto;
+
     width: 60%;
-    height: 40%;
     max-width: 800px;
-    max-height: 500px;
-    min-height: 300px;
+    min-width: 400px;
+    min-height: 600px;
 
     border-width: 1px;
     border-style: solid;
-    border-color: #268bd2;
-
-    background-color: #000002e0;
+    border-color: #ffffff;
+    background: #0f171f
 }
 
 .title-bar {
@@ -52,12 +47,14 @@ body, html {
     width: 100%;
     height: 24px;
 
-    background-color: #073642;
+    background-color: #007f7f;
     color: #839496;
 }
 
 .title-bar-text {
     margin: 3px;
+    margin-left: 10px;
+    color: #000000;
 }
 
 .item-container {
@@ -87,20 +84,31 @@ body, html {
 }
 
 .prompt-text {
-    color: #859900;
+    color: #ffffff;
 }
 
 .whoami-response-text {
     font-weight: bold;
-    color : #fdf6e3;
+    color : #00ff00;
 
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
+.about-response-text {
+    font-weight: bold;
+    color : #cfcf00;
+    text-align: justify;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .ls-response-text {
     font-weight: bold;
-    color: #268bd2;
+    color: #00afff;
 
     margin-top: 5px;
     margin-bottom: 5px;
@@ -126,7 +134,7 @@ body, html {
     color: transparent;
   }
   50% {
-    color: #859900;
+    color: #ffffff;
   }
 }
 
@@ -135,7 +143,7 @@ body, html {
     color: transparent;
   }
   50% {
-    color: #859900;
+    color: #ffffff;
   }
 }
 
@@ -144,7 +152,7 @@ body, html {
     color: transparent;
   }
   50% {
-    color: #859900;
+    color: #ffffff;
   }
 }
 
@@ -153,7 +161,7 @@ body, html {
     color: transparent;
   }
   50% {
-    color: #859900;
+    color: #ffffff;
   }
 }
 
@@ -162,7 +170,7 @@ body, html {
     color: transparent;
   }
   50% {
-    color: #859900;
+    color: #ffffff;
   }
 }
 
